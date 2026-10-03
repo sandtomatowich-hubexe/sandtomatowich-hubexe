@@ -1,1 +1,16 @@
-
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180">
+<rect width="900" height="180" fill="#080a0e"/>
+<g stroke="#151a21" stroke-width="1">
+  <path d="M0 45H900 M0 90H900 M0 135H900"/>
+  <path d="M90 0V180 M180 0V180 M270 0V180 M360 0V180 M450 0V180 M540 0V180 M630 0V180 M720 0V180 M810 0V180"/>
+</g>
+<text x="35" y="48" fill="#e8ecef" font-family="monospace" font-size="25" font-weight="700">HYPERTOUCH</text>
+<text x="35" y="82" fill="#87929e" font-family="monospace" font-size="15">ANDROID / TOUCH / SYSTEM</text>
+<path d="M35 125 C120 85, 170 160, 250 120 S390 80, 470 122 S620 155, 700 112 S810 85, 865 120" fill="none" stroke="#a9b3bd" stroke-width="2" stroke-dasharray="8 8">
+  <animate attributeName="stroke-dashoffset" from="0" to="-64" dur="1.2s" repeatCount="indefinite"/>
+</path>
+<circle cx="470" cy="122" r="5" fill="#d9dee2">
+  <animate attributeName="r" values="4;8;4" dur="1.4s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="1;.25;1" dur="1.4s" repeatCount="indefinite"/>
+</circle>
+</svg>
