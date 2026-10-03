@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./sep-system-banner.gif" alt="SEP // SYSTEM" width="100%">
+  <img src="./sep-system-v3.gif" alt="SEP // SYSTEM" width="100%">
 </p>
 
 <p align="center">
@@ -10,36 +10,50 @@
 
 ## About
 
-I'm Sep — a software enthusiast interested in Android, Linux, system
-modding and learning how software behaves underneath the surface.
+I'm Sep.
 
-I like taking things apart, changing them, testing what happens, and
-turning the useful parts into small projects.
+A software enthusiast interested in Android, Linux, system modding,
+debugging and learning how things work underneath the surface.
+
+I enjoy experimenting with Android and HyperOS, building small tools,
+breaking things on purpose, finding out why they break, and turning
+those experiments into useful projects.
 
 ```text
 focus
 ├── software development
-├── Android / HyperOS modding
+├── Android / HyperOS
+├── system modding
 ├── Linux / shell
 ├── Git / GitHub
-├── system-level experimentation
+├── debugging
 └── SVG / animation / UI experiments
 ```
 
 ## Current project
 
 <p align="center">
-  <img src="./hypertouch-motion.svg" alt="HyperTouch motion graphic" width="90%">
+  <img src="./hypertouch-card.svg" alt="HyperTouch" width="92%">
 </p>
 
 ### HyperTouch
 
-A lightweight Android touch optimization module focused on touch response
-and overall system responsiveness, without requiring kernel modification.
+A lightweight Android touch optimization module focused on touch
+response and overall system responsiveness without requiring kernel
+modification.
 
-[View HyperTouch](https://github.com/sandtomatowich-hubexe/HyperTouch)
+[View repository](https://github.com/sandtomatowich-hubexe/HyperTouch)
 
-## What I'm learning
+## Stack / interests
+
+```text
+ANDROID       HYPEROS       LINUX
+SHELL         GIT           GITHUB
+PYTHON        DEVOPS        SYSTEM MODDING
+DEBUGGING     SVG           ANIMATION
+```
+
+## Currently learning
 
 ```text
 Linux        █████████░
@@ -50,25 +64,28 @@ Python       ████░░░░░░
 DevOps       ███░░░░░░░
 ```
 
-These are not skill ratings. They are simply a visual snapshot of what
-I'm currently spending time on.
+These bars are only a visual snapshot of what I'm currently spending
+time on, not a claim of proficiency.
 
-## Interests
-
-`Android` `HyperOS` `Linux` `Shell` `Git` `GitHub`
-`System Modding` `Debugging` `SVG` `Animation` `Software`
-
-## Philosophy
+## Workflow
 
 ```text
 build
+  ↓
 break
+  ↓
 observe
+  ↓
 debug
+  ↓
+understand
+  ↓
 repeat
 ```
 
-Still learning. Still experimenting.
+## Elsewhere
+
+[GitHub](https://github.com/sandtomatowich-hubexe)
 
 ---
 
