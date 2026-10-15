@@ -12,6 +12,12 @@
 
 I'm Sep.
 
+
+<p align="center">
+  <img src="./sep-kernel-quest.gif" alt="SEP Kernel Quest" width="100%">
+</p>
+
+
 A software enthusiast interested in Android, Linux, system modding,
 debugging and learning how things work underneath the surface.
 
