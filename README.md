@@ -12,11 +12,9 @@
 
 I'm Sep.
 
-
 <p align="center">
   <img src="./sep-kernel-quest.gif" alt="SEP Kernel Quest" width="100%">
 </p>
-
 
 A software enthusiast interested in Android, Linux, system modding,
 debugging and learning how things work underneath the surface.
@@ -36,7 +34,43 @@ focus
 └── SVG / animation / UI experiments
 ```
 
-## Current project
+## Projects
+
+<p align="center">
+  <img src="./hypercore-card.svg" alt="HyperCore — GKI Kernel Build Pipeline" width="92%">
+</p>
+
+<p align="center">
+  <img src="./hypercore.gif" alt="HyperCore pixel-art build pipeline animation" width="100%">
+</p>
+
+### HyperCore
+
+An Android GKI kernel build project focused on an automated, configurable
+build pipeline, bringing source preparation, patching, compilation and
+release packaging into one workflow.
+
+[View repository](https://github.com/sandtomatowich-hubexe/HyperCore)
+
+---
+
+<p align="center">
+  <img src="./hypergsm-card.svg" alt="HyperGSM — Google Services Management" width="92%">
+</p>
+
+<p align="center">
+  <img src="./hypergsm.gif" alt="HyperGSM pixel-art connectivity animation" width="100%">
+</p>
+
+### HyperGSM
+
+An Android project focused on Google Mobile Services behavior, background
+service management, Doze handling, push notifications and battery-aware
+operation.
+
+[View repository](https://github.com/sandtomatowich-hubexe/HyperGSM)
+
+---
 
 <p align="center">
   <img src="./hypertouch-card.svg" alt="HyperTouch" width="92%">

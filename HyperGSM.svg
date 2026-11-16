@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1"><stop offset="0" stop-color="#07090d"/><stop offset=".5" stop-color="#0d1219"/><stop offset="1" stop-color="#07090d"/></linearGradient>
+  <linearGradient id="glow" x1="0" x2="1"><stop offset="0" stop-color="#b56bff" stop-opacity=".0"/><stop offset=".5" stop-color="#b56bff" stop-opacity=".18"/><stop offset="1" stop-color="#b56bff" stop-opacity=".0"/></linearGradient>
+</defs>
+<rect width="1000" height="230" fill="url(#bg)"/>
+<g stroke="#151a21" stroke-width="1"><path d="M0 46H1000 M0 92H1000 M0 138H1000 M0 184H1000"/><path d="M100 0V230 M200 0V230 M300 0V230 M400 0V230 M500 0V230 M600 0V230 M700 0V230 M800 0V230 M900 0V230"/></g>
+<rect x="28" y="28" width="944" height="174" rx="8" fill="none" stroke="#343c46"/>
+<rect x="29" y="29" width="942" height="172" fill="url(#glow)" opacity=".45"/>
+<text x="52" y="70" fill="#e9edf0" font-family="monospace" font-size="28" font-weight="700">HYPERGSM</text>
+<text x="52" y="98" fill="#87929e" font-family="monospace" font-size="15">ANDROID / GOOGLE SERVICES / DOZE</text>
+<text x="52" y="133" fill="#b7c0c8" font-family="monospace" font-size="14">Google services & background behavior</text>
+<text x="52" y="166" fill="#b56bff" font-family="monospace" font-size="12">GMS  /  PUSH  /  DOZE  /  BATTERY</text>
+<g transform="translate(790 38)" shape-rendering="crispEdges">
+          <rect x="34" y="0" width="82" height="142" rx="12" fill="#111827" stroke="#b56bff" stroke-width="3"/>
+          <rect x="42" y="16" width="66" height="110" rx="4" fill="#080d18" stroke="#45305f"/>
+          <path d="M65 43q10 -13 20 0v8h-20zM58 55h34v30H58z" fill="#b56bff"/>
+          <path d="M75 85v15M62 85v12M88 85v12" stroke="#b56bff" stroke-width="5"/>
+          <rect x="0" y="30" width="28" height="24" fill="#24143a" stroke="#b56bff" stroke-width="2"/>
+          <path d="M8 42h12" stroke="#f2e9ff" stroke-width="3"/>
+          <rect x="126" y="68" width="28" height="24" fill="#24143a" stroke="#b56bff" stroke-width="2"/>
+          <path d="M133 80h14" stroke="#f2e9ff" stroke-width="3"/>
+          <path d="M74 -12q-18 -22 -34 0M74 -12q18 -22 34 0" fill="none" stroke="#b56bff" stroke-width="3"/>
+          <circle cx="75" cy="-12" r="4" fill="#b56bff"><animate attributeName="r" values="3;6;3" dur="1.4s" repeatCount="indefinite"/></circle>
+        </g>
+<path d="M500 190H940" stroke="#b56bff" stroke-width="1" stroke-dasharray="4 8" opacity=".45"><animate attributeName="stroke-dashoffset" from="0" to="-48" dur="1.2s" repeatCount="indefinite"/></path>
+</svg>
