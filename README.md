@@ -41,7 +41,7 @@ focus
 </p>
 
 <p align="center">
-  <img src="./hypercore.gif" alt="HyperCore pixel-art build pipeline animation" width="100%">
+  <img src="./hypercore.gif-1" alt="HyperCore pixel-art build pipeline animation" width="100%">
 </p>
 
 ### HyperCore
