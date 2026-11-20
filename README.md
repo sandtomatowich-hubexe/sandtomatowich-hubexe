@@ -10,26 +10,26 @@ I'm Sep.
 
 <p align="center">
   <img src="./sep-kernel-quest.gif" alt="SEP Kernel Quest" width="100%">
-</p>A software enthusiast interested in Android, Linux, system engineering,
-modding, debugging and understanding how things work underneath the surface.
+</p>A software enthusiast interested in Android, Linux, system modding,
+debugging and learning how things work underneath the surface.
 
 I enjoy experimenting with Android and HyperOS, building tools and
-systems, exploring low-level components, and turning technical
-experiments into practical projects.
+systems, breaking things on purpose, finding out why they break, and
+turning those experiments into useful projects.
 
 focus
 ├── software development
 ├── Android / HyperOS
-├── system engineering & modding
+├── system modding
 ├── Linux / shell
 ├── Git / GitHub
-├── debugging & automation
+├── debugging
 └── SVG / animation / UI experiments
 
 Projects
 
 <p align="center">
-  <img src="./HyperCore.svg" alt="HyperCore — Kernel Build Environment" width="100%">
+  <img src="./HyperCore.svg" alt="HyperCore — GKI Kernel Build Environment" width="92%">
 </p><p align="center">
   <img src="./hypercore-1.gif" alt="HyperCore pixel-art build pipeline animation" width="100%">
 </p>HyperCore
@@ -46,7 +46,7 @@ modular build ecosystem.
 ---
 
 <p align="center">
-  <img src="./HyperGSM.svg" alt="HyperGSM — Google Services Management" width="100%">
+  <img src="./HyperGSM.svg" alt="HyperGSM — Google Services Management" width="92%">
 </p><p align="center">
   <img src="./hypergsm.gif" alt="HyperGSM pixel-art connectivity animation" width="100%">
 </p>HyperGSM
@@ -63,7 +63,7 @@ configuration.
 ---
 
 <p align="center">
-  <img src="./hypertouch-card.svg" alt="HyperTouch" width="100%">
+  <img src="./hypertouch-card.svg" alt="HyperTouch" width="92%">
 </p>HyperTouch
 
 A lightweight Android touch optimization module focused on improving
@@ -83,13 +83,13 @@ Currently Learning
 
 Linux        █████████░
 Git          ██████████
-Shell        ████████░░
+Shell        ██████████
 Android      █████████░
 Python       ████░░░░░░
 DevOps       ███░░░░░░░
 
-These bars are only a visual snapshot of what I'm currently
-spending time on, not a claim of proficiency.
+These bars are only a visual snapshot of what I'm currently spending
+time on, not a claim of proficiency.
 
 Workflow
 
