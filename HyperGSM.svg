@@ -1,107 +1,78 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="270" viewBox="0 0 900 270" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
-<title id="title">HyperGSM — Xiaomi and Google handshake</title>
-<desc id="desc">Two rounded, dimensional pixel-art app icons representing Xiaomi and Google face each other and shake hands, with a small GitHub mark and HyperGSM systems signature.</desc>
+<title id="title">HyperGSM — Google Services Integration</title>
+<desc id="desc">A clean pixel-art system map connecting a Xiaomi HyperOS device environment to Google Play Services through a controlled integration layer.</desc>
 <defs>
-  <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#101a2b"/><stop offset="1" stop-color="#080d18"/></linearGradient>
-  <linearGradient id="orangeFace" x2=".85" y2="1"><stop stop-color="#ff9a28"/><stop offset=".58" stop-color="#ff690f"/><stop offset="1" stop-color="#d9410c"/></linearGradient>
-  <linearGradient id="whiteFace" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".7" stop-color="#e8efff"/><stop offset="1" stop-color="#b8c8f2"/></linearGradient>
-  <linearGradient id="skin" x2="0" y2="1"><stop stop-color="#ffe0b6"/><stop offset="1" stop-color="#d99b69"/></linearGradient>
-  <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#18253b"/><stop offset="1" stop-color="#0a111e"/></linearGradient>
-  <filter id="orangeGlow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="13"/></filter>
-  <filter id="blueGlow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="13"/></filter>
-  <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4"/></filter>
-  <clipPath id="floorClip"><rect x="18" y="206" width="864" height="48"/></clipPath>
+ <linearGradient id="b" x2="0" y2="1"><stop stop-color="#111426"/><stop offset="1" stop-color="#080b14"/></linearGradient>
+ <pattern id="g" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#202a43" stroke-width="1"/></pattern>
+ <filter id="gl" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4"/></filter>
 </defs>
 <style>
-  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
-  .floatL{animation:float 3.1s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
-  .floatR{animation:float 3.1s ease-in-out -1.55s infinite;transform-box:fill-box;transform-origin:center}
-  .hand{animation:handshake 1.65s steps(4,end) infinite;transform-box:fill-box;transform-origin:center}
-  .impact{animation:impact 1.65s steps(2,end) infinite;transform-box:fill-box;transform-origin:center}
-  .twinkle{animation:twinkle 1.8s steps(2,end) infinite}.t2{animation-delay:-.6s}.t3{animation-delay:-1.2s}
-  .glowPulse{animation:glow 3s ease-in-out infinite}
-  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
-  @keyframes handshake{0%,100%{transform:translateY(0) rotate(0)}22%{transform:translateY(-2px) rotate(-2deg)}48%{transform:translateY(1px) rotate(1.5deg)}72%{transform:translateY(-1px) rotate(-1deg)}}
-  @keyframes impact{0%,38%,100%{opacity:0;transform:scale(.55)}45%,58%{opacity:1;transform:scale(1)}70%{opacity:.35;transform:scale(1.15)}}
-  @keyframes twinkle{0%,42%{opacity:.9}43%,100%{opacity:.18}}
-  @keyframes glow{0%,100%{opacity:.22}50%{opacity:.48}}
-  @media(prefers-reduced-motion:reduce){*{animation:none!important}}
+.m{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.w{fill:#e6edff}.dim{fill:#7d8aa8}.o{fill:#ffad70}.c{fill:#9ac8ff}.g{fill:#8ce0b9}
+.p{animation:blink 2.4s steps(2,end) infinite}.p2{animation-delay:-1.2s}
+.data{animation:move 3.4s steps(8,end) infinite}.data.d2{animation-delay:-1.7s}
+@keyframes blink{0%,100%{opacity:.25}50%{opacity:1}}
+@keyframes move{0%{transform:translateX(0);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translateX(210px);opacity:0}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
-<!-- atmosphere -->
-<rect width="900" height="270" fill="url(#bg)"/>
-<rect x="16" y="16" width="868" height="238" fill="none" stroke="#26384a" stroke-width="2"/>
-<ellipse cx="270" cy="142" rx="165" ry="92" fill="#ff5c12" opacity=".14" filter="url(#orangeGlow)" class="glowPulse"/>
-<ellipse cx="630" cy="142" rx="165" ry="92" fill="#315fff" opacity=".14" filter="url(#blueGlow)" class="glowPulse"/>
-<path d="M16 207H884" stroke="#304254" stroke-width="2"/>
-<rect x="16" y="208" width="868" height="46" fill="url(#floor)"/>
-<!-- pixel particles -->
-<g fill="#ff8a35"><rect x="104" y="75" width="5" height="5" class="twinkle"/><rect x="160" y="126" width="4" height="4" class="twinkle t2"/><rect x="367" y="83" width="4" height="4" class="twinkle t3"/></g>
-<g fill="#668dff"><rect x="789" y="70" width="5" height="5" class="twinkle t2"/><rect x="740" y="124" width="4" height="4" class="twinkle"/><rect x="532" y="82" width="4" height="4" class="twinkle t3"/></g>
-<!-- floor reflections -->
-<g clip-path="url(#floorClip)" opacity=".28">
- <path d="M178 211h174v8H178zM190 222h150v6H190zM207 232h115v5H207z" fill="#ff6b18"/>
- <path d="M548 211h174v8H548zM560 222h150v6H560zM577 232h115v5H577z" fill="#527dff"/>
- <path d="M380 212h140v4H380z" fill="#e4c9b1" opacity=".35"/>
+<rect width="900" height="270" fill="url(#b)"/><rect width="900" height="270" fill="url(#g)" opacity=".6"/>
+<rect x="18" y="17" width="864" height="236" fill="none" stroke="#2c3653" stroke-width="2"/>
+<!-- header -->
+<rect x="39" y="34" width="5" height="22" fill="#ff9141"/>
+<text x="56" y="50" class="m w" font-size="17" font-weight="700" letter-spacing="1.2">HYPERGSM</text>
+<text x="56" y="66" class="m dim" font-size="9" letter-spacing="1.3">HYPEROS / GOOGLE SERVICES INTEGRATION</text>
+<text x="840" y="48" text-anchor="end" class="m dim" font-size="9" letter-spacing="1.1">CONNECTIVITY NODE 02</text>
+<rect x="851" y="40" width="6" height="6" fill="#8ce0b9" class="p"/>
+<!-- left device tile -->
+<g transform="translate(75 93)">
+ <rect x="0" y="0" width="176" height="96" fill="#171522" stroke="#a85d38" stroke-width="2"/>
+ <rect x="8" y="8" width="160" height="80" fill="#201a23" stroke="#653e35"/>
+ <rect x="20" y="20" width="44" height="44" fill="#ed6b25"/>
+ <rect x="26" y="26" width="32" height="32" fill="#ff9a45"/>
+ <!-- pixel MI-like monogram -->
+ <path d="M32 33h7v20h-7zM42 33h14v7h-7v13h-7z" fill="#fff3e7"/>
+ <text x="77" y="37" class="m w" font-size="11">XIAOMI</text>
+ <text x="77" y="52" class="m dim" font-size="8">HYPEROS / CN ROM</text>
+ <text x="20" y="78" class="m o" font-size="8">ANDROID DEVICE</text>
 </g>
-<!-- left Xiaomi rounded app tile, with voxel depth -->
-<g class="floatL">
- <rect x="153" y="83" width="190" height="126" rx="23" fill="#080b13" opacity=".55" transform="translate(7 9)"/>
- <path d="M160 103q0-22 22-22h140q22 0 22 22v82q0 22-22 22H182q-22 0-22-22z" fill="#a8320d" transform="translate(0 7)"/>
- <rect x="153" y="77" width="190" height="126" rx="23" fill="url(#orangeFace)" stroke="#ffb05e" stroke-width="3"/>
- <path d="M177 79h137q21 0 26 19v10H153V101q0-22 24-22z" fill="#ffbd69" opacity=".32"/>
- <path d="M153 119h9v59q0 16 15 21h-8q-16-4-16-22z" fill="#ff4e12" opacity=".55"/>
- <path d="M343 103v82q0 18-18 18h-8q17-7 17-22v-78z" fill="#a93410" opacity=".55"/>
- <!-- official MI glyph, simplified only as the app icon's brand mark -->
- <path d="M204 111h16v9h-7v45h-9zM225 120h10v-9h19v9h11v45h-10v-34h-10v34h-10v-34h-10v34h-10z" fill="#fff7ed"/>
- <path d="M177 91h74" stroke="#ffd39a" stroke-width="3" opacity=".38"/>
+<!-- central integration module -->
+<g transform="translate(364 83)">
+ <path d="M16 0h140v8h8v90h-8v8H16v-8H8V8h8z" fill="#1a2744" stroke="#6789c4" stroke-width="2"/>
+ <rect x="24" y="16" width="124" height="74" fill="#101a30" stroke="#8ebcff" stroke-width="2"/>
+ <rect x="37" y="29" width="98" height="48" fill="#1b2e50" stroke="#4c6fa8"/>
+ <path d="M46 39h80v5H46zM46 51h80v5H46zM46 63h80v5H46z" fill="#385987"/>
+ <text x="86" y="58" text-anchor="middle" class="m w" font-size="16" font-weight="700">GMS</text>
+ <g fill="#8ebcff"><rect x="32" y="-7" width="8" height="7"/><rect x="56" y="-7" width="8" height="7"/><rect x="80" y="-7" width="8" height="7"/><rect x="104" y="-7" width="8" height="7"/><rect x="128" y="-7" width="8" height="7"/><rect x="32" y="106" width="8" height="7"/><rect x="56" y="106" width="8" height="7"/><rect x="80" y="106" width="8" height="7"/><rect x="104" y="106" width="8" height="7"/><rect x="128" y="106" width="8" height="7"/></g>
+ <text x="86" y="124" text-anchor="middle" class="m dim" font-size="8">SERVICE LAYER</text>
+ <rect x="79" y="36" width="14" height="4" fill="#a6d4ff" class="p" filter="url(#gl)"/>
 </g>
-<!-- right Google rounded app tile, voxel depth -->
-<g class="floatR">
- <rect x="557" y="83" width="190" height="126" rx="23" fill="#070b14" opacity=".55" transform="translate(7 9)"/>
- <path d="M564 103q0-22 22-22h140q22 0 22 22v82q0 22-22 22H586q-22 0-22-22z" fill="#7789bd" transform="translate(0 7)"/>
- <rect x="557" y="77" width="190" height="126" rx="23" fill="url(#whiteFace)" stroke="#fff" stroke-width="3"/>
- <path d="M581 79h137q21 0 26 19v10H557V101q0-22 24-22z" fill="#fff" opacity=".62"/>
- <path d="M557 119h9v59q0 16 15 21h-8q-16-4-16-22z" fill="#c4d2f7" opacity=".7"/>
- <path d="M747 103v82q0 18-18 18h-8q17-7 17-22v-78z" fill="#7488c7" opacity=".65"/>
- <!-- Google G: four clean color segments -->
- <g transform="translate(612 105)">
-  <path d="M58 4A48 48 0 0 0 10 52h15A33 33 0 0 1 58 19c9 0 17 4 23 10l11-11A47 47 0 0 0 58 4z" fill="#ea4335"/>
-  <path d="M10 52a48 48 0 0 0 14 34l11-11a33 33 0 0 1-10-23z" fill="#fbbc05"/>
-  <path d="M24 86a48 48 0 0 0 67-3L80 71a33 33 0 0 1-45 4z" fill="#34a853"/>
-  <path d="M91 83a48 48 0 0 0 14-31V45H60v15h29a33 33 0 0 1-9 11z" fill="#4285f4"/>
-  <path d="M105 52q0-4-.5-7H60v15h29a33 33 0 0 1-9 11l11 12a48 48 0 0 0 14-31z" fill="#4285f4"/>
- </g>
+<!-- right services tile -->
+<g transform="translate(649 93)">
+ <rect x="0" y="0" width="176" height="96" fill="#151a2a" stroke="#5876b9" stroke-width="2"/>
+ <rect x="8" y="8" width="160" height="80" fill="#171e31" stroke="#394e82"/>
+ <rect x="20" y="20" width="44" height="44" fill="#edf2ff"/>
+ <!-- pixel G mark -->
+ <path d="M54 30h-8v-4h-12v4h-5v5h-4v12h4v6h5v4h12v-4h7v-7h-7v4h-10v-4h-4v-10h4v-4h10v4h8z" fill="#4285f4"/>
+ <path d="M29 35h7v-5h10v-4H34v4h-5z" fill="#ea4335"/>
+ <path d="M29 48h7v5h10v4H34v-4h-5z" fill="#34a853"/>
+ <path d="M25 35h5v13h-5z" fill="#fbbc05"/>
+ <text x="77" y="37" class="m w" font-size="11">GOOGLE</text>
+ <text x="77" y="52" class="m dim" font-size="8">PLAY SERVICES</text>
+ <text x="20" y="78" class="m c" font-size="8">PUSH / API / LOCATION</text>
 </g>
-<!-- arms behind the handshake -->
-<path d="M329 143h32v11h24v16h-34v-8h-22z" fill="#ff7a25" stroke="#ffb05e" stroke-width="2"/>
-<path d="M571 143h-32v11h-24v16h34v-8h22z" fill="#dce6ff" stroke="#aabde9" stroke-width="2"/>
-<!-- central chunky pixel handshake -->
-<g class="hand">
- <!-- left hand / cuff -->
- <path d="M351 141h19v-8h20v9h15v13h-13v10h-16v-8h-25z" fill="#ff9a45" stroke="#c75b25" stroke-width="2"/>
- <path d="M353 140h18v-7h18v8h-14v8h-22z" fill="#ffd0a0"/>
- <!-- right hand / cuff -->
- <path d="M549 141h-19v-8h-20v9h-15v13h13v10h16v-8h25z" fill="#a9c4ef" stroke="#637fae" stroke-width="2"/>
- <path d="M547 140h-18v-7h-18v8h14v8h22z" fill="#fff0d8"/>
- <!-- joined hands -->
- <path d="M389 141h28v-8h18v8h16v9h-9v10h-15v9h-19v-8h-19z" fill="url(#skin)" stroke="#b97952" stroke-width="2"/>
- <path d="M511 141h-28v-8h-18v8h-16v9h9v10h15v9h19v-8h19z" fill="url(#skin)" stroke="#b97952" stroke-width="2"/>
- <path d="M411 141h78v17h-12v9h-54v-9h-12z" fill="#f4c18e" stroke="#bd8059" stroke-width="2"/>
- <path d="M420 145h14v5h-14zM468 145h14v5h-14zM439 160h27v4h-27z" fill="#c98961"/>
- <path d="M397 134h15v7h-15zM488 134h15v7h-15z" fill="#ffe0b6"/>
-</g>
-<!-- pixel impact bursts, synced with handshake -->
-<g class="impact" fill="#ffe3a8">
- <rect x="438" y="104" width="8" height="8"/><rect x="425" y="116" width="5" height="5"/><rect x="470" y="115" width="5" height="5"/>
- <path d="M449 91h5v10h-5zM411 112h8v5h-8zM481 111h8v5h-8z"/>
-</g>
-<g class="impact" fill="#7fdcf0" opacity=".9">
- <rect x="388" y="121" width="5" height="5"/><rect x="506" y="121" width="5" height="5"/><rect x="449" y="177" width="5" height="5"/>
-</g>
-<!-- footer signature and official GitHub mark -->
-<rect x="31" y="224" width="4" height="17" fill="#477cff"/>
-<text x="46" y="239" class="mono" fill="#d5e2ed" font-size="16" letter-spacing=".4">HyperGSM<tspan fill="#71859a">/systems</tspan></text>
+<!-- data link -->
+<path d="M251 141H364M532 141H649" stroke="#45628f" stroke-width="6" opacity=".35"/>
+<path d="M251 141H364M532 141H649" stroke="#779ed8" stroke-width="2" stroke-dasharray="4 7"/>
+<path d="M251 119h44v-13h69M251 163h44v13h69M649 119h-44v-13h-69M649 163h-44v13h-69" fill="none" stroke="#405987" stroke-width="2"/>
+<rect x="258" y="137" width="6" height="6" fill="#ffb17a" class="data"/>
+<rect x="258" y="137" width="6" height="6" fill="#a9ceff" class="data d2"/>
+<!-- bottom metadata -->
+<path d="M39 211H861" stroke="#2a3652" stroke-width="2"/>
+<text x="39" y="229" class="m dim" font-size="9" letter-spacing="1">DEVICE LAYER  /  SERVICE BRIDGE  /  GOOGLE API</text>
+<text x="815" y="229" text-anchor="end" class="m dim" font-size="9" letter-spacing="1">SEP // SYSTEMS</text>
+<path d="M39 240H830" stroke="#2a3652" stroke-width="2"/><path d="M39 240H220" stroke="#ff9141" stroke-width="2"/>
+
+
 <g transform="translate(850 220) scale(.95)" fill="#d5e2ed" aria-label="GitHub">
- <path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.56.1.76-.24.76-.54v-2.1c-3.1.68-3.76-1.32-3.76-1.32-.5-1.3-1.24-1.65-1.24-1.65-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15 1 1.7 2.62 1.2 3.26.92.1-.72.39-1.2.71-1.48-2.48-.28-5.09-1.24-5.09-5.52 0-1.22.44-2.22 1.15-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.05 1.14a10.6 10.6 0 0 1 5.55 0c2.11-1.44 3.05-1.14 3.05-1.14.61 1.54.23 2.68.11 2.96.72.78 1.15 1.78 1.15 3 0 4.29-2.62 5.23-5.11 5.51.4.35.76 1.03.76 2.08v3.09c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9z"/>
+  <path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.56.1.76-.24.76-.54v-2.1c-3.1.68-3.76-1.32-3.76-1.32-.5-1.3-1.24-1.65-1.24-1.65-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15 1 1.7 2.62 1.2 3.26.92.1-.72.39-1.2.71-1.48-2.48-.28-5.09-1.24-5.09-5.52 0-1.22.44-2.22 1.15-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.05 1.14a10.6 10.6 0 0 1 5.55 0c2.11-1.44 3.05-1.14 3.05-1.14.61 1.54.23 2.68.11 2.96.72.78 1.15 1.78 1.15 3 0 4.29-2.62 5.23-5.11 5.51.4.35.76 1.03.76 2.08v3.09c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9z"/>
 </g>
 </svg>
