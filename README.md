@@ -1,115 +1,98 @@
 <p align="center">
   <img src="./sep-system-v3.gif" alt="SEP // SYSTEM" width="100%">
-</p>
-
-<p align="center">
+</p><p align="center">
   <code>software / android / linux / systems</code>
-</p>
+</p>---
 
----
-
-## About
+About
 
 I'm Sep.
 
 <p align="center">
   <img src="./sep-kernel-quest.gif" alt="SEP Kernel Quest" width="100%">
-</p>
+</p>A software enthusiast interested in Android, Linux, system engineering,
+modding, debugging and understanding how things work underneath the surface.
 
-A software enthusiast interested in Android, Linux, system modding,
-debugging and learning how things work underneath the surface.
+I enjoy experimenting with Android and HyperOS, building tools and
+systems, exploring low-level components, and turning technical
+experiments into practical projects.
 
-I enjoy experimenting with Android and HyperOS, building small tools,
-breaking things on purpose, finding out why they break, and turning
-those experiments into useful projects.
-
-```text
 focus
 ├── software development
 ├── Android / HyperOS
-├── system modding
+├── system engineering & modding
 ├── Linux / shell
 ├── Git / GitHub
-├── debugging
+├── debugging & automation
 └── SVG / animation / UI experiments
-```
 
-## Projects
-
-<p align="center">
-  <img src="./HyperCore.svg" alt="HyperCore — GKI Kernel Build Pipeline" width="92%">
-</p>
+Projects
 
 <p align="center">
+  <img src="./HyperCore.svg" alt="HyperCore — Kernel Build Environment" width="100%">
+</p><p align="center">
   <img src="./hypercore-1.gif" alt="HyperCore pixel-art build pipeline animation" width="100%">
-</p>
+</p>HyperCore
 
-### HyperCore
+An Android GKI kernel engineering and build environment focused on
+automation, configurability and reproducibility.
 
-An Android GKI kernel build project focused on an automated, configurable
-build pipeline, bringing source preparation, patching, compilation and
-release packaging into one workflow.
+HyperCore brings source preparation, patch integration, kernel
+configuration, compilation and release workflows together in a
+modular build ecosystem.
 
-[View repository](https://github.com/sandtomatowich-hubexe/HyperCore)
+"View repository" (https://github.com/sandtomatowich-hubexe/HyperCore)
 
 ---
 
 <p align="center">
-  <img src="./HyperGSM.svg" alt="HyperGSM — Google Services Management" width="92%">
-</p>
-
-<p align="center">
+  <img src="./HyperGSM.svg" alt="HyperGSM — Google Services Management" width="100%">
+</p><p align="center">
   <img src="./hypergsm.gif" alt="HyperGSM pixel-art connectivity animation" width="100%">
-</p>
+</p>HyperGSM
 
-### HyperGSM
+A KernelSU / Magisk / APatch module for HyperOS designed to improve
+Google Play Services compatibility and push notification reliability
+on CN ROMs.
 
-A KernelSU / Magisk / APatch module for HyperOS that helps keep Google Play
-Services and push notifications working on CN ROMs, with battery profiles
-for Global ROMs and a WebUI for configuration.
+It also provides battery profiles for Global ROMs and a WebUI for
+configuration.
 
-[View repository](https://github.com/sandtomatowich-hubexe/HyperGSM)
+"View repository" (https://github.com/sandtomatowich-hubexe/HyperGSM)
 
 ---
 
 <p align="center">
-  <img src="./hypertouch-card.svg" alt="HyperTouch" width="92%">
-</p>
+  <img src="./hypertouch-card.svg" alt="HyperTouch" width="100%">
+</p>HyperTouch
 
-### HyperTouch
+A lightweight Android touch optimization module focused on improving
+touch response and overall system responsiveness without requiring
+kernel modifications.
 
-A lightweight Android touch optimization module focused on touch
-response and overall system responsiveness without requiring kernel
-modification.
+"View repository" (https://github.com/sandtomatowich-hubexe/HyperTouch)
 
-[View repository](https://github.com/sandtomatowich-hubexe/HyperTouch)
+Stack / Interests
 
-## Stack / interests
-
-```text
 ANDROID       HYPEROS       LINUX
 SHELL         GIT           GITHUB
 PYTHON        DEVOPS        SYSTEM MODDING
 DEBUGGING     SVG           ANIMATION
-```
 
-## Currently learning
+Currently Learning
 
-```text
 Linux        █████████░
 Git          ██████████
 Shell        ████████░░
 Android      █████████░
 Python       ████░░░░░░
 DevOps       ███░░░░░░░
-```
 
-These bars are only a visual snapshot of what I'm currently spending
-time on, not a claim of proficiency.
+These bars are only a visual snapshot of what I'm currently
+spending time on, not a claim of proficiency.
 
-## Workflow
+Workflow
 
-```text
 build
   ↓
 break
@@ -121,11 +104,10 @@ debug
 understand
   ↓
 repeat
-```
 
-## Elsewhere
+Elsewhere
 
-[GitHub](https://github.com/sandtomatowich-hubexe)
+"GitHub" (https://github.com/sandtomatowich-hubexe)
 
 ---
 
