@@ -41,10 +41,6 @@ focus
   <img src="./HyperCore.svg" alt="HyperCore — GKI Kernel Build Pipeline" width="92%">
 </p>
 
-<p align="center">
-  <img src="./hypercore-1.gif" alt="HyperCore pixel-art build pipeline animation" width="100%">
-</p>
-
 ### HyperCore
 
 An Android GKI kernel build project focused on an automated, configurable
@@ -57,10 +53,6 @@ release packaging into one workflow.
 
 <p align="center">
   <img src="./HyperGSM.svg" alt="HyperGSM — Google Services Management" width="92%">
-</p>
-
-<p align="center">
-  <img src="./hypergsm.gif" alt="HyperGSM pixel-art connectivity animation" width="100%">
 </p>
 
 ### HyperGSM
